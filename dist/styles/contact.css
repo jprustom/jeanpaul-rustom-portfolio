@@ -1,0 +1,42 @@
+#contact {
+    padding: 2rem;
+}
+
+#contact>a>h1 {
+    margin-top: 3rem;
+    font-style: inherit;
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: lighter;
+    transition: all .2s;
+    display: inline-block;
+    left: 50vw;
+    transform: translateX(-50%);
+    position: relative;
+    ;
+}
+
+#contact>a {
+    text-decoration: none;
+}
+
+#contact>a>h1:hover {
+    transform: translate(-50%, -5%);
+}
+
+#contact>a>h1:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: .6rem;
+    background: #a69b9a;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width .3s;
+}
+
+#contact>a>h1:hover:after {
+    width: 80%;
+}

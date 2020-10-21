@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Jean-Paul Rustom</title>
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/type-writer.css">
+    <link rel="stylesheet" href="./styles/image-slider.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/skills.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <script src="./main.js" type="module" defer></script>
+</head>
+
+<body>
+    <section id="navbar">
+        <h1>Jean-Paul Rustom</h1>
+        <nav id="hamburger">
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+        </nav>
+
+
+        <ul id="nav-links__list">
+            <li><a href="#about">About</a> </li>
+            <li><a href="#skills">Skills</a> </li>
+            <!-- <li><a href="">Stats</a></li> -->
+            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </section>
+    <section id="mobile-nav__modal">
+        <ul id="mobile-nav__links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <!-- <li>Stats</li> -->
+            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </section>
+
+    <section class="slider">
+        <section class="type-writer__content">
+            <h1 class="glitch">Jean-Paul Rustom</h1>
+            <span class="text-type" data-wait-before-delete="3000" data-words='["Web Developer", "Programmer","Game Developer"]'></span>
+
+        </section>
+        <div style="background:url('https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat center top/cover ;" class="slider__slide slider__slide--current">
+            <div class="slider__slide__content">
+                <h1>Programmer</h1>
+                <p>
+                    I have learned OOP, OOD, and studied data structures as well as algorithms runtime analysis. I am familiar with topics such as procedural, functional, object oriented programming, design patterns, dynammic programming, stacks, linked lists, binary trees,
+                    as well as the big O notation. I worked in languages like Javascript, C#, C++, Python, PHP...
+
+                </p>
+            </div>
+        </div>
+        <div style=" background: url('https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat center top/cover;" class="slider__slide">
+            <div class="slider__slide__content">
+                <h1>Web Developer</h1>
+                <p>
+                    I decided to learn web development during the COVID19 pandemic. I learned how HTML, CSS, and Javascript are correlated and are the three necessary languages to design a front end. I also got into backend, learned Node js, PHP, Firebase and MongoDb.
+                </p>
+            </div>
+        </div>
+        <div style=" background: url('https://images.pexels.com/photos/1038916/pexels-photo-1038916.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat center top/cover;" class="slider__slide">
+            <div class="slider__slide__content">
+                <h1>Game Developer</h1>
+                <p>
+                    I always wanted to learn how games worked under the hood. Already familiar with C#, I learned the basics of the famous multi-platform Unity engine. I watched some tutorials and made some mini 2D games. Currently on a hiatus from my game dev journey, I
+                    have decided that I will learn game design and dive much deeper into the games industry.
+                </p>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="previous-slide-arrow">
+                <img  src="./images/left-arrow.png" alt="">
+            </button>
+            <button id="next-slide-arrow"> 
+                 <img  src="./images/right-arrow.png" alt="">
+            </button>
+
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div>
+            <img src="./images/me.PNG" alt="">
+            <p>Hey there ! I'm Jean-Paul Rustom from Zouk Mickeal, Lebanon. I am currently a computer science student whose main interests are web and game development. I enjoy creating and customizing things on my own, I find programming a great skill and
+                asset to have. I have experience coding in C++, C#, Javascript, PHP, Python, Dart... I am currently studying at Notre Dame University, Zouk Mosbeh, and will graduate by this summer. I intend to continue my post graduate studies as a software
+                engineer and continue my learning journey. </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div id="skills__headings">
+
+            <h1>My Skills</h1>
+
+        </div>
+        <div id="skills-container">
+            <div class="skill-box">
+                <div class="skill-box__image-container">
+                    <img class="skill-box__image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" alt="">
+                </div>
+
+                <h3 class="skill-box__title">HTML</h3>
+            </div>
+            <div class="skill-box">
+                <div class="skill-box__image-container">
+                    <img class="skill-box__image" src="https://3.bp.blogspot.com/-oRSUw_TmO9o/XIb61m88fcI/AAAAAAAAIq0/vnxl2zzsXEQsnHI2fH4GjKu_ZT0urRo4wCK4BGAYYCw/s1600/icon%2Bcss%2B3.png" alt="">
+                </div>
+                <h3 class="skill-box__title">CSS</h3>
+            </div>
+            <div class="skill-box">
+                <div class="skill-box__image-container">
+                    <img class="skill-box__image" src="https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg" alt="">
+                </div>
+                <h3 class="skill-box__title">Javascript</h3>
+            </div>
+            <div class="skill-box">
+                <div class="skill-box__image-container">
+                    <img class="skill-box__image" src="https://www.flaticon.com/svg/static/icons/svg/919/919832.svg" alt="">
+                </div>
+                <h3 class="skill-box__title">Typescript</h3>
+            </div>
+            <div class="skill-box">
+                <div class="skill-box__image-container">
+                    <img class="skill-box__image" id="react-image" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="">
+                </div>
+                <h3 class="skill-box__title">React</h3>
+            </div>
+            <div class="skill-box">
+                <div class="skill-box__image-container">
+                    <img class="skill-box__image" src="https://www.flaticon.com/svg/static/icons/svg/919/919830.svg" alt="">
+                </div>
+                <h3 class="skill-box__title">PHP</h3>
+            </div>
+            <div class="skill-box">
+                <div class="skill-box__image-container">
+                    <img class="skill-box__image" src="https://user-images.githubusercontent.com/42747200/46140125-da084900-c26d-11e8-8ea7-c45ae6306309.png" alt="">
+                </div>
+                <h3 class="skill-box__title">C++</h3>
+            </div>
+            <div class="skill-box">
+                <div class="skill-box__image-container">
+                    <img class="skill-box__image" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg" alt="">
+                </div>
+                <h3 class="skill-box__title">C#</h3>
+            </div>
+            <div class="skill-box">
+                <div class="skill-box__image-container">
+                    <img class="skill-box__image" src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/unity-512.png" alt="">
+                </div>
+                <h3 class="skill-box__title">Unity</h3>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+
+    </section>
+    <section id="contact">
+        <a href="mailto:jeanpaul.r_1999@live.com">
+            <h1>Contact Me</h1>
+        </a>
+    </section>
+</body>
+
+</html>

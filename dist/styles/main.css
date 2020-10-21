@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: .6vw;
+    height: 0;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #808080;
+}
