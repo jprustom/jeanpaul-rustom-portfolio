@@ -4,14 +4,15 @@
     "description": "First Version Of Jean-Paul Rustom Portfolio",
     "main": "\"./dist/main.js\"",
     "dependencies": {
-        "webpack-cli": "^4.1.0",
-        "webpack": "^5.1.3"
+        "express": "^4.17.1",
+        "webpack": "^5.1.3",
+        "webpack-cli": "^4.1.0"
     },
     "devDependencies": {},
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "bundle": "webpack",
-        "start": "./dist/index.html"
+        "start": "node main/index.js"
     },
     "author": "Jean-Paul Rustom",
     "license": "ISC"
